@@ -8,7 +8,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 import { setContext } from "apollo-link-context";
 
 import "./styles/index.css";
-import AUTH_TOKEN from "./constants";
+import { AUTH_TOKEN } from "./constants";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 
